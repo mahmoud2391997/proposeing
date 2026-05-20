@@ -1,0 +1,6 @@
+{
+  "name": "Penny Corner Café",
+  "description": "High-fidelity responsive website design for Penny Corner Café in Ipswich, featuring easy WhatsApp ordering, telephone hotlines, and beautiful menus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
