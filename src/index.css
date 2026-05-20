@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-cafe-burgundy: #5c161e;
+  --color-cafe-burgundy-dark: #410f15;
+  --color-cafe-cream: #faf6ee;
+  --color-cafe-cream-dark: #f0e5ca;
+  --color-cafe-gold: #c6943c;
+  --color-cafe-green: #12a14b;
+  --color-cafe-green-hover: #0e853c;
+}
+
+/* Custom design accents */
+.double-border {
+  border: 4px double #f0e5ca;
+}
+
+.cafe-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(92, 22, 30, 0.06);
+}
+
+.vintage-divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, #c6943c, transparent);
+  margin: 1.5rem 0;
+}
